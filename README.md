@@ -10,6 +10,7 @@ Latitude vs. Temperature
 Latitude vs. Humidity
 Latitude vs. Cloudiness
 Latitude vs. Wind Speed
+
 Part 2 I used linear regression for each relationship. seperated the plots into Northern Hemispher(greater than or equal to 0 degrees latitude) and southern Hemispher(less than 0 degrees latitude). the model's formula and r value was used. The following plots were created
 
 Northern Hemispher: Temperature vs. Latitude
@@ -24,7 +25,7 @@ VacationPy
 
 I used Geoapify API and the geoViews Python library to create map visualizations using the following steps:
 
-i used a map that displays a point for every city in the dataframe, the size of the point in each city is humidity
+I used a map that displays a point for every city in the dataframe, the size of the point in each city is humidity
 I narrowed down my data frame to find the ideal weather conditionn with max temp 27 degrees but higher than 21
 Wind speed less than 4.5m/s
 Zero cloudiness
